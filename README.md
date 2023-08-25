@@ -1,42 +1,48 @@
-# MachineLearning
-Project based on Python and R
+# Comparative Analysis of Equity Crowdfunding Expenditure Across OECD Nations: Python and R Approach
 
-In this project I'm planning to explain difference between OECD countries in terms of money spent in each of them on "Crowdfunding" projects (*)
+## Project Overview
 
-I'll look for explanation in independent variabes such as those below:
+This project aims to perform a comprehensive analysis of the differences in money spent on "Equity Crowdfunding" projects across OECD countries. The analysis will delve into various independent variables that may contribute to these differences, including economic factors, open-mindedness, social awareness, sense of security, and technology awareness.
 
-economic factors:
-- GDP value
-- PPP (purchasing power parity)
+## Independent Variables
 
-"open-mindeness":
-- number of foreign languages spoken
+### Economic Factors
+- **GDP Value:** Gross Domestic Product value of each country.
+- **PPP (Purchasing Power Parity):** Measure of economic strength considering cost of living and inflation.
 
-social awareness:
-- electoral turnout
-- percentage of people working in R&D sectors
+### Open-Mindedness
+- **Number of Foreign Languages Spoken:** Indicator of cultural diversity and open-mindedness.
 
-sense of security:
-- European Patent Office patents gained (per habitant)
-- Number of violations by the government reported by residents of the country
+### Social Awareness
+- **Electoral Turnout:** Percentage of eligible voters participating in elections.
+- **Percentage of People Working in R&D Sectors:** Reflects the focus on innovation and progress.
 
-technology awareness:
-- number of purchases made online
-- percentage of people working in IT
+### Sense of Security
+- **European Patent Office Patents Gained (per Habitant):** Patents filed for innovation.
+- **Number of Violations Reported by Residents:** Indicator of governance and safety.
 
-Data used in the analysis is obtained from the Eurostat database. It covers latest possible years (oldest data, concerning electoral turnout, reaches up to 2011).
+### Technology Awareness
+- **Number of Purchases Made Online:** Illustrates technology adoption and e-commerce.
+- **Percentage of People Working in IT:** Demonstrates technology proficiency.
 
-The data analysis is developed gradually and is going to contain such methods as:
+## Data Source and Analysis Methods
 
+The project utilizes data from the Eurostat database, encompassing the latest available years (with the oldest data, specifically electoral turnout, extending to 2011).
+
+The analysis unfolds gradually and employs a range of methods:
 - Basic Linear Regression
 - Polynomial Regression
-- SVR
-- Random Forrest Regression
+- Support Vector Regression (SVR)
+- Random Forest Regression
 - Logistic Regression
-- Kernel SVM
-- Apriori
-- Clustering
+- Kernel Support Vector Machine (SVM)
+- Apriori Algorithm (for market basket analysis)
+- Clustering Techniques
 
-The analysis will be provided in Python and in R.
+The project's analysis is conducted using both Python and R programming languages to ensure a comprehensive examination.
 
-(*) One and only type of crowdfunding I'm going to analyse is "Equity crowdfunding". Equity crowdfunding involves the issuance of securities whereas the other forms of crowdfunding do not. Almost every country in the world regulates the selling and issuance of securities. Thus, I'll focus merely on that kind of crowdfunding, as the only case of crowdfunding that has trustworthy sources of information.
+## Focus on Equity Crowdfunding
+
+The project solely focuses on "Equity Crowdfunding," which involves the issuance of securities. This form of crowdfunding is distinct due to its regulation in most countries. As such, it provides trustworthy and credible sources of information for analysis.
+
+**Project Name:** Comparative Analysis of Equity Crowdfunding Expenditure Across OECD Nations: Python and R Approach
