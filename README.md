@@ -1,4 +1,6 @@
 # Comparative Analysis of Equity Crowdfunding Expenditure Across OECD Nations: Python and R Approach
+------------------------------------------------------------------------------------------------------------------------------
+* Author: Manai Mortadha 
 
 ## Project Overview
 
