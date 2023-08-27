@@ -1,27 +1,48 @@
-# MachineLearning
-Project based on Python and R
+# Comparative Analysis of Equity Crowdfunding Expenditure Across OECD Nations: Python and R Approach
 
-In this project I'm planning to explain impact of such factors as:
- - price
- - number of bedrooms
- - number of max number of accomodates
- 
- on the fact that a given accomodation received good reviews (average equals or more than 4). The listed reviews are taken into consideration only if the place was reviewed at least 3 times.
- 
-The dataset for this regression changed in comparison to previous projects. In order to test data containing dummy variables, I used survey data obtained in July 2017 in Warsaw by Airbnb. The dataset contains such data as:
+## Project Overview
 
-room_id, host_id, room_type, last_modified, latitude, longitude - details that directly identify the survey. Those data will not be used in the analysis.
+This project aims to perform a comprehensive analysis of the differences in money spent on "Equity Crowdfunding" projects across OECD countries. The analysis will delve into various independent variables that may contribute to these differences, including economic factors, open-mindedness, social awareness, sense of security, and technology awareness.
 
-reviews: The number of reviews that a listing has received. It is claimed that around 70% of visits are reviewed. That index was an indicator for me, whether the obtained rating was reliable. E.g. the average rating of 4,5 pulled out of  5 reviews was more worthy for me than an avg rating of 5 based on just 2 opinions.
+## Independent Variables
 
-rating - The average rating out of five that the listing has received from those visitors who left a review.
+### Economic Factors
+- **GDP Value:** Gross Domestic Product value of each country.
+- **PPP (Purchasing Power Parity):** Measure of economic strength considering cost of living and inflation.
 
-overall satisfaction - this metric is similar to rating, though not used here due to the formatting case
+### Open-Mindedness
+- **Number of Foreign Languages Spoken:** Indicator of cultural diversity and open-mindedness.
 
-accomodates - the number of guests a host can accommodate in the given apartament/room
+### Social Awareness
+- **Electoral Turnout:** Percentage of eligible voters participating in elections.
+- **Percentage of People Working in R&D Sectors:** Reflects the focus on innovation and progress.
 
-bedroom - number of bedrooms
+### Sense of Security
+- **European Patent Office Patents Gained (per Habitant):** Patents filed for innovation.
+- **Number of Violations Reported by Residents:** Indicator of governance and safety.
 
-price - The price for a night stay in local currency (PLN). 
- 
-The analysis will be provided in Python and in R.
+### Technology Awareness
+- **Number of Purchases Made Online:** Illustrates technology adoption and e-commerce.
+- **Percentage of People Working in IT:** Demonstrates technology proficiency.
+
+## Data Source and Analysis Methods
+
+The project utilizes data from the Eurostat database, encompassing the latest available years (with the oldest data, specifically electoral turnout, extending to 2011).
+
+The analysis unfolds gradually and employs a range of methods:
+- Basic Linear Regression
+- Polynomial Regression
+- Support Vector Regression (SVR)
+- Random Forest Regression
+- Logistic Regression
+- Kernel Support Vector Machine (SVM)
+- Apriori Algorithm (for market basket analysis)
+- Clustering Techniques
+
+The project's analysis is conducted using both Python and R programming languages to ensure a comprehensive examination.
+
+## Focus on Equity Crowdfunding
+
+The project solely focuses on "Equity Crowdfunding," which involves the issuance of securities. This form of crowdfunding is distinct due to its regulation in most countries. As such, it provides trustworthy and credible sources of information for analysis.
+
+**Project Name:** Comparative Analysis of Equity Crowdfunding Expenditure Across OECD Nations: Python and R Approach
